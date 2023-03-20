@@ -13,7 +13,7 @@ if [[ -z ${GEN_ROOT:-} ]]; then
 
     GEN_ROOT="${TEMP_FOLDER}/gen"
     echo ">>> Cloning gen repo"
-    git clone --recursive https://github.com/kubernetes-client/gen.git "${GEN_ROOT}"
+    git clone --recursive https://github.com/mstruebing/gen.git "${GEN_ROOT}"
     (cd ${GEN_ROOT} && git checkout ${GEN_COMMIT})
 else
     echo ">>> Reusing gen repo at ${GEN_ROOT}"

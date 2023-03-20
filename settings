@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # kubernetes-client/gen commit to use for code generation.
-export GEN_COMMIT=b32dcd6
+export GEN_COMMIT=037c7953a3780f95aa3c5362278cb37e89b5ee61
 
 # GitHub username/organization to clone kubernetes repo from.
 export USERNAME=kubernetes
